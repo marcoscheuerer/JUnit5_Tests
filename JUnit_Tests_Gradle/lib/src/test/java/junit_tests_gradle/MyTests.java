@@ -6,6 +6,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.TestInstance;
+import org.junit.jupiter.api.Disabled;
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class MyTests {
@@ -25,6 +26,7 @@ public class MyTests {
 		System.out.println("hello world in firstTest() method");
 	}
 	
+	@Disabled
 	@Test
 	void secondTest() {
 		System.out.println("hello world in secondTest() method");
